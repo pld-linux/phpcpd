@@ -21,6 +21,7 @@ Requires:	php-ezc-ConsoleTools >= 1.6
 Requires:	php-pear
 Requires:	php-phpunit-FinderFacade >= 1.0.4
 Requires:	php-phpunit-PHP_Timer <= 1.0.99
+Requires:	php-phpunit-PHP_Timer >= 1.0.4
 Requires:	php-phpunit-Version >= 1.0.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
