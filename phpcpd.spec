@@ -17,12 +17,11 @@ BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
 Requires:	php(tokenizer)
 Requires:	php-channel(pear.phpunit.de)
-Requires:	php-ezc-ConsoleTools >= 1.6
 Requires:	php-pear >= 1.3.14-2
-Requires:	php-phpunit-FinderFacade >= 1.0.4
-Requires:	php-phpunit-PHP_Timer <= 1.0.99
+Requires:	php-phpunit-FinderFacade >= 1.1.0
 Requires:	php-phpunit-PHP_Timer >= 1.0.4
 Requires:	php-phpunit-Version >= 1.0.0
+Requires:	php-symfony2-Console >= 2.2.0
 Obsoletes:	php-phpunit-phpcpd
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
