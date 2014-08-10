@@ -2,7 +2,7 @@
 %define		pearname	phpcpd
 %include	/usr/lib/rpm/macros.php
 Summary:	Copy/Paste Detector (CPD) for PHP code
-Name:		php-phpunit-phpcpd
+Name:		phpcpd
 Version:	2.0.0
 Release:	1
 License:	BSD
@@ -23,6 +23,7 @@ Requires:	php-phpunit-FinderFacade >= 1.0.4
 Requires:	php-phpunit-PHP_Timer <= 1.0.99
 Requires:	php-phpunit-PHP_Timer >= 1.0.4
 Requires:	php-phpunit-Version >= 1.0.0
+Obsoletes:	php-phpunit-phpcpd
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
