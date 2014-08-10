@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Copy/Paste Detector (CPD) for PHP code
 Name:		php-phpunit-phpcpd
-Version:	1.4.3
-Release:	2
-License:	The BSD 3-Clause License
+Version:	2.0.0
+Release:	1
+License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.phpunit.de/get/%{pearname}-%{version}.tgz
-# Source0-md5:	f668c6787aaa4f4395b4ff08624961f0
+# Source0-md5:	920b308e47ee3e715fe3ed5dbd86f5cd
 URL:		http://pear.phpunit.de/package/phpcpd/
 BuildRequires:	php-channel(pear.phpunit.de)
 BuildRequires:	php-packagexml2cl
