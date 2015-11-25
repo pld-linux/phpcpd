@@ -4,7 +4,7 @@
 Summary:	Copy/Paste Detector (CPD) for PHP code
 Name:		phpcpd
 Version:	2.0.0
-Release:	3
+Release:	4
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.phpunit.de/get/%{pearname}-%{version}.tgz
@@ -22,7 +22,7 @@ Requires:	php-pear >= 1.3.14-2
 Requires:	php-phpunit-FinderFacade >= 1.1.0
 Requires:	php-phpunit-PHP_Timer >= 1.0.4
 Requires:	php-phpunit-Version >= 1.0.0
-Requires:	php-symfony2-Console >= 2.2.0
+Requires:	php-symfony2-Console >= 2.7.7
 Obsoletes:	php-phpunit-phpcpd
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
