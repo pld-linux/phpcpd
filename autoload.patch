@@ -1,0 +1,11 @@
+--- phpcpd-2.0.0/./usr/share/pear/SebastianBergmann/PHPCPD/autoload.php~	2015-11-26 00:31:06.000000000 +0200
++++ phpcpd-2.0.0/./usr/share/pear/SebastianBergmann/PHPCPD/autoload.php	2015-11-26 00:31:23.283403218 +0200
+@@ -43,7 +43,7 @@
+ 
+ require_once 'SebastianBergmann/FinderFacade/autoload.php';
+ require_once 'SebastianBergmann/Version/autoload.php';
+-require_once 'Symfony/Component/Console/autoloader.php';
++require_once 'Symfony/Component/Console/autoload.php';
+ require_once 'PHP/Timer/Autoload.php';
+ 
+ spl_autoload_register(
