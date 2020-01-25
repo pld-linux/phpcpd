@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	phpcpd
-%include	/usr/lib/rpm/macros.php
 Summary:	Copy/Paste Detector (CPD) for PHP code
 Name:		phpcpd
 Version:	2.0.0
